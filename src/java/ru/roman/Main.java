@@ -61,7 +61,7 @@ public class Main {
         byte remont=120;
         int paint=white+brown;
 
-        int clas=120/paint;
+        int clas=remont/paint;
 
         int whiteClas=clas*white;
         int brownClas=clas*brown;
