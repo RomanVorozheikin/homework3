@@ -24,5 +24,13 @@ public class Main {
         short i=27897;
         byte g=67;
 
+
+        byte lydmilaPavlovna=23;
+        byte annaSergeevna=27;
+        byte ekaterinaAndreevna=30;
+        short bumaga=480;
+        int listovUchenikuy=bumaga/(lydmilaPavlovna+annaSergeevna+ekaterinaAndreevna);
+        System.out.println("На каждого ученика рассчитано "+listovUchenikuy+" листов бумаги");
+
     }
 }
