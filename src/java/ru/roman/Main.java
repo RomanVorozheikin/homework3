@@ -5,8 +5,8 @@ public class Main {
         int cat=1500000;
         byte dog=100;
         short paper=29990;
-        long bird=350000000;
-        float goose=10.557585867F;
+        long bird=3500000000000l;
+        float goose=10.557585867f;
         double rabbit=555.679028193;
         System.out.println("Значение переменной cat с типом int равно "+cat);
         System.out.println("Значение переменной dog с типом byte равно "+dog);
