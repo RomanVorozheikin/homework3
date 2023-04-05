@@ -14,5 +14,15 @@ public class Main {
         System.out.println("Значение переменной bird с типом long равно "+bird);
         System.out.println("Значение переменной goose с типом float равно "+goose);
         System.out.println("Значение переменной rabbit с типом double равно "+rabbit);
+
+
+        float a=27.12f;
+        long b=987678965549l;
+        float c=2.786f;
+        short d=569;
+        short e=-159;
+        short i=27897;
+        byte g=67;
+
     }
 }
