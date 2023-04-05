@@ -56,5 +56,18 @@ public class Main {
         System.out.println("За месяц машина произвела "+bottlesMonth+ " штук бутылок");
 
 
+        byte white=2;
+        byte brown=4;
+        byte remont=120;
+        int paint=white+brown;
+
+        int clas=120/paint;
+
+        int whiteClas=clas*white;
+        int brownClas=clas*brown;
+        System.out.println("В школе, где "+clas+ " классов, нужно "+whiteClas+" банок белой краски и "+brownClas+" банок коричневой.");
+
+
+
     }
 }
