@@ -32,5 +32,29 @@ public class Main {
         int listovUchenikuy=bumaga/(lydmilaPavlovna+annaSergeevna+ekaterinaAndreevna);
         System.out.println("На каждого ученика рассчитано "+listovUchenikuy+" листов бумаги");
 
+
+
+        byte minuts=20;
+        byte bottlesTwoMinuts=16;
+        byte timeMinuts=2;
+        int bottlesTwentyMinuts=(minuts/timeMinuts)*bottlesTwoMinuts;
+        System.out.println("За 20 минут машина произвела "+bottlesTwentyMinuts+ " штук бутылок");
+
+        byte sutki=1;
+        byte hoursSutki=24;
+        int minutsSutki=hoursSutki*60;
+        int bottlesSutki=(minutsSutki/timeMinuts)*bottlesTwoMinuts;
+        System.out.println("За сутки машина произвела "+bottlesSutki+ " штук бутылок");
+
+        byte day=3;
+        int hoursDay=day*24;
+        int minutsDay=hoursDay*60;
+        int bottlesDay=(minutsDay/timeMinuts)*bottlesTwoMinuts;
+        System.out.println("За 3 дня машина произвела "+bottlesDay+ " штук бутылок");
+
+        int bottlesMonth=bottlesSutki*30;
+        System.out.println("За месяц машина произвела "+bottlesMonth+ " штук бутылок");
+
+
     }
 }
