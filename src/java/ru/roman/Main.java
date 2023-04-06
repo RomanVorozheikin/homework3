@@ -96,5 +96,25 @@ public class Main {
 
         int overageDay=(firstSportsmanDay+secondSportsmanDay)/2;
         System.out.println("В среднем понадобится "+overageDay+" день для похудения!");
+
+
+        int masha=67760;
+        int denis=83690;
+        int cristina=76230;
+
+        byte procent=10;
+        float meaning=procent/100f+1;
+
+        float raisingMasha=masha*meaning;
+        float raisingDenis=denis*meaning;
+        float raisingCristina=cristina*meaning;
+
+
+        float annualIncomeMasha=raisingMasha-masha;
+        float annualIncomeDenis=raisingDenis-denis;
+        float annualIncomeCristina=raisingCristina-cristina;
+        System.out.println("Маша теперь получает "+raisingMasha+" рублей. Годовой доход вырос на "+annualIncomeMasha+" рублей");
+        System.out.println("Денис теперь получает "+raisingDenis+" рублей. Годовой доход вырос на "+annualIncomeDenis+" рублей");
+        System.out.println("Кристина теперь получает "+raisingCristina+" рублей. Годовой доход вырос на "+annualIncomeCristina+" рублей");
     }
 }
