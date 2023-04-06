@@ -68,6 +68,22 @@ public class Main {
         System.out.println("В школе, где "+clas+ " классов, нужно "+whiteClas+" банок белой краски и "+brownClas+" банок коричневой.");
 
 
+        byte bananas=5;
+        int bananasWeight=bananas*80;
+        short milkMl=200;
+        int number=milkMl/100;
+        int milkGr=number*105;
+        byte iceCream=2;
+        int iceCreamWeight=iceCream*2;
+        byte egg=4;
+        int eggWeight=egg*70;
+        int breakfastGram=bananasWeight+milkGr+iceCreamWeight+eggWeight;
+        System.out.println("Вес завтрака "+breakfastGram+ " грамма");
+        float breakfastKilogram=breakfastGram/1000f;
+        System.out.println("Вес завтрака "+breakfastKilogram+ " килограмма");
+
+
+
 
     }
 }
