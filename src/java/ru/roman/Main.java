@@ -83,7 +83,18 @@ public class Main {
         System.out.println("Вес завтрака "+breakfastKilogram+ " килограмма");
 
 
+        byte sportsmanWeight=7;
+        short firstGramm=250;
+        short secondGramm=500;
+        int sportsmanGramm=sportsmanWeight*1000;
+        int firstSportsmanDay=sportsmanGramm/firstGramm;
+        System.out.println("Если спортсмен будет терять по 250гр. в день, то похудеет за "+firstSportsmanDay+" дней");
+
+        int secondSportsmanDay=sportsmanGramm/secondGramm;
+        System.out.println("Если спортсмен будет терять по 500гр. в день, то похудеет за "+secondSportsmanDay+" дней");
 
 
+        int overageDay=(firstSportsmanDay+secondSportsmanDay)/2;
+        System.out.println("В среднем понадобится "+overageDay+" день для похудения!");
     }
 }
